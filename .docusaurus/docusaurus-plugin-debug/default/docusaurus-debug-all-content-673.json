@@ -5,7 +5,7 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs",
+          "versionPath": "/docs-engine/docs",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/raulzablah/sandbox/docs-engine/sidebars.js",
@@ -46,10 +46,10 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/": "someSidebar",
-            "/docs/doc2": "someSidebar",
-            "/docs/doc3": "someSidebar",
-            "/docs/mdx": "someSidebar"
+            "/docs-engine/docs/": "someSidebar",
+            "/docs-engine/docs/doc2": "someSidebar",
+            "/docs-engine/docs/doc3": "someSidebar",
+            "/docs-engine/docs/mdx": "someSidebar"
           },
           "docs": [
             {
@@ -60,14 +60,14 @@
               "description": "You can write content using GitHub-flavored Markdown syntax.",
               "source": "@site/docs/doc1.md",
               "slug": "/",
-              "permalink": "/docs/",
+              "permalink": "/docs-engine/docs/",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
               "version": "current",
               "sidebar_label": "Style Guide",
               "sidebar": "someSidebar",
               "next": {
                 "title": "Document Number 2",
-                "permalink": "/docs/doc2"
+                "permalink": "/docs-engine/docs/doc2"
               }
             },
             {
@@ -78,17 +78,17 @@
               "description": "This is a link to another document. This is a link to an external page.",
               "source": "@site/docs/doc2.md",
               "slug": "/doc2",
-              "permalink": "/docs/doc2",
+              "permalink": "/docs-engine/docs/doc2",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
               "version": "current",
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Style Guide",
-                "permalink": "/docs/"
+                "permalink": "/docs-engine/docs/"
               },
               "next": {
                 "title": "This is Document Number 3",
-                "permalink": "/docs/doc3"
+                "permalink": "/docs-engine/docs/doc3"
               }
             },
             {
@@ -99,17 +99,17 @@
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "source": "@site/docs/doc3.md",
               "slug": "/doc3",
-              "permalink": "/docs/doc3",
+              "permalink": "/docs-engine/docs/doc3",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
               "version": "current",
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Document Number 2",
-                "permalink": "/docs/doc2"
+                "permalink": "/docs-engine/docs/doc2"
               },
               "next": {
                 "title": "Powered by MDX",
-                "permalink": "/docs/mdx"
+                "permalink": "/docs-engine/docs/mdx"
               }
             },
             {
@@ -120,13 +120,13 @@
               "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
               "source": "@site/docs/mdx.md",
               "slug": "/mdx",
-              "permalink": "/docs/mdx",
+              "permalink": "/docs-engine/docs/mdx",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mdx.md",
               "version": "current",
               "sidebar": "someSidebar",
               "previous": {
                 "title": "This is Document Number 3",
-                "permalink": "/docs/doc3"
+                "permalink": "/docs-engine/docs/doc3"
               }
             }
           ]
@@ -140,7 +140,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome",
+            "permalink": "/docs-engine/blog/welcome",
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
             "source": "@site/blog/2019-05-30-welcome.md",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
@@ -148,15 +148,15 @@
             "tags": [
               {
                 "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "permalink": "/docs-engine/blog/tags/facebook"
               },
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/docs-engine/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/docs-engine/blog/tags/docusaurus"
               }
             ],
             "title": "Welcome",
@@ -164,14 +164,14 @@
             "truncated": false,
             "nextItem": {
               "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "permalink": "/docs-engine/blog/hello-world"
             }
           }
         },
         {
           "id": "hello-world",
           "metadata": {
-            "permalink": "/blog/hello-world",
+            "permalink": "/docs-engine/blog/hello-world",
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
             "source": "@site/blog/2019-05-29-hello-world.md",
             "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
@@ -179,11 +179,11 @@
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/docs-engine/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/docs-engine/blog/tags/docusaurus"
               }
             ],
             "title": "Hello",
@@ -191,18 +191,18 @@
             "truncated": true,
             "prevItem": {
               "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "permalink": "/docs-engine/blog/welcome"
             },
             "nextItem": {
               "title": "Hola",
-              "permalink": "/blog/hola"
+              "permalink": "/docs-engine/blog/hola"
             }
           }
         },
         {
           "id": "hola",
           "metadata": {
-            "permalink": "/blog/hola",
+            "permalink": "/docs-engine/blog/hola",
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
             "source": "@site/blog/2019-05-28-hola.md",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
@@ -210,11 +210,11 @@
             "tags": [
               {
                 "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "permalink": "/docs-engine/blog/tags/hola"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/docs-engine/blog/tags/docusaurus"
               }
             ],
             "title": "Hola",
@@ -222,7 +222,7 @@
             "truncated": false,
             "prevItem": {
               "title": "Hello",
-              "permalink": "/blog/hello-world"
+              "permalink": "/docs-engine/blog/hello-world"
             }
           }
         }
@@ -230,7 +230,7 @@
       "blogListPaginated": [
         {
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/docs-engine/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -252,7 +252,7 @@
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/facebook"
+          "permalink": "/docs-engine/blog/tags/facebook"
         },
         "hello": {
           "name": "hello",
@@ -260,7 +260,7 @@
             "welcome",
             "hello-world"
           ],
-          "permalink": "/blog/tags/hello"
+          "permalink": "/docs-engine/blog/tags/hello"
         },
         "docusaurus": {
           "name": "docusaurus",
@@ -269,24 +269,24 @@
             "hello-world",
             "hola"
           ],
-          "permalink": "/blog/tags/docusaurus"
+          "permalink": "/docs-engine/blog/tags/docusaurus"
         },
         "hola": {
           "name": "hola",
           "items": [
             "hola"
           ],
-          "permalink": "/blog/tags/hola"
+          "permalink": "/docs-engine/blog/tags/hola"
         }
       },
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/docs-engine/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/docs-engine/",
         "source": "@site/src/pages/index.js"
       }
     ]

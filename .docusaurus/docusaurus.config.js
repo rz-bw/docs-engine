@@ -1,12 +1,12 @@
 export default {
-  "title": "My Site",
+  "title": "Example site",
   "tagline": "The tagline of my site",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "url": "https://rz-bw.github.io",
+  "baseUrl": "/docs-engine/",
   "onBrokenLinks": "throw",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "rz-bw",
+  "projectName": "docs-engine",
   "themeConfig": {
     "navbar": {
       "title": "My Site",
